@@ -1,0 +1,8 @@
+{
+  "name": "caminho-da-fe-360",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "anti-mock": "bash tests/anti-mock.sh"
+  }
+}
