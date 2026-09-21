@@ -1,0 +1,9 @@
+{
+  "project":"caminho-da-fe-360",
+  "status":"planning",
+  "origin":"Ouro Fino - MG",
+  "destination":"Aparecida - SP",
+  "via":["Caminho da Fé","Campos do Jordão"],
+  "stage_target_km":{"min":20,"max":50},
+  "stages":[]
+}
