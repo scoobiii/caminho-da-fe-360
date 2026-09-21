@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          for p in pathlib.Path('data').glob('*.json'):
+              json.loads(p.read_text())
+              print('OK', p)
+          PY
+      - name: Anti-mock
+        run: bash tests/anti-mock.sh
+      - name: Basic tests
+        run: npm test
+      - name: k6
+        uses: grafana/setup-k6-action@v1
+      - name: k6 smoke
+        run: k6 run k6/smoke.js
