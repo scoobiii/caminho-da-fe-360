@@ -14,9 +14,14 @@
 | CF360-010 | Diário/linha do tempo | TODO | eventos por etapa |
 | CF360-011 | Plano de negócios | IN PROGRESS | modelo, mercado, receita, custos |
 | CF360-012 | Cronograma físico-financeiro | IN PROGRESS | marcos, esforço e orçamento |
-| CF360-013 | Equipamentos | TODO | bike, energia, conectividade, câmeras |
+| CF360-013 | Equipamentos | IN PROGRESS | bike, energia, conectividade, câmeras e recuperação |
 | CF360-014 | Social media automation | TODO | eventos → posts |
 | CF360-015 | Patrocinadores | TODO | cotas e mídia entregável |
+| CF360-016 | História 2013 / promessa | DONE | narrativa documentada e incorporada ao projeto |
+| CF360-017 | Arquivo histórico 2013 | TODO | fotos/vídeos catalogados com origem e data |
+| CF360-018 | Documentário da promessa | TODO | roteiro + episódios + material de campo |
+| CF360-019 | Piloto de captura 360 | TODO | trecho de teste com GPS e upload validado |
+| CF360-020 | Identificação da câmera emprestada | TODO | modelo, acessórios e parâmetros registrados |
 
 ## Regra
 
